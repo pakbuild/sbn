@@ -127,6 +127,19 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
   }
 }
+.slide-left {
+  animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+  0%{
+      transform: translate(100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translate(0px);
+      opacity: 1;
+  }
+}
 
 /* Header Top */
 #header.header-top {
