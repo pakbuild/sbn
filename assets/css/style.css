@@ -392,6 +392,9 @@ section .container {
   font-size: x-small;
   padding-top: 20px;
 }
+#aboutimage {
+	border-radius: 40px;
+}
 
 /*--------------------------------------------------------------
 
